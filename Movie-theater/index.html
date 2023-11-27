@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie theater</title>
+</head>
+<body>
+    <h1 class="title">Movie theater</h1>
+    <br>
+    <div class="container">
+				<div class="item-container">
+					<h3 class="title-item">John Wick: Chapter 4</h3>
+                    <img class="first-item-img" src="slike/1.jpg">
+                    <h4 class="item-description">Description</h4>
+                    <p class="description">John Wick uncovers a path to defeating The High Table. But before he can earn his freedom, Wick must face off against a new enemy with powerful alliances across the globe and forces that turn old friends into foes.
+
+                        Director
+                        Chad Stahelski
+                        Writers
+                        Shay HattenMichael FinchDerek Kolstad
+                        Stars
+                        Keanu ReevesLaurence FishburneGeorge Georgiou</p>
+					<p class="price">$30</p>
+                    <div class="actions">
+                        <input class="input" type="number" name="quantity" value="0" min="0">
+                        <button class="button button4" onclick="watchThisMovie(this)">Add</button>
+                    </div>
+				</div>
+			</div>
+
+    <div class="container">
+		<div class="item-container">
+					<h3 class="title-item">Guardians of the Galaxy Vol. 3</h3>
+                    <img class="first-item-img" src="slike/2.jpg">
+                    <h4 class="item-description">Description</h4>
+                    <p class="description">Still reeling from the loss of Gamora, Peter Quill rallies his team to defend the universe and one of their own - a mission that could mean the end of the Guardians if not successful.</p>
+					<p class="price">$40</p>
+                    <div class="actions">
+                        <input class="input" type="number" name="quantity" value="0" min="0">
+                        <button class="button button4" onclick="watchThisMovie(this)">Add</button>
+                    </div>
+		</div>
+	</div>
+            
+    <div class="container">
+		<div class="item-container">
+					<h3 class="title-item">The Matrix</h3>
+                    <img class="first-item-img" src="slike/3.jpg">
+                    <h4 class="item-description">Description</h4>
+                    <p class="description">When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.</p>
+					<p class="price">$45</p>
+                    <div class="actions">
+                        <input class="input" type="number" name="quantity" value="0" min="0">
+                        <button class="button button4" onclick="watchThisMovie(this)">Add</button>
+                    </div>
+		</div>
+	</div>
+
+    <div class="container">
+		<div class="item-container">
+					<h3 class="title-item">The Godfather</h3>
+                    <img class="first-item-img" src="slike/4.jpg">
+                    <h4 class="item-description">Description</h4>
+                    <p class="description">Don Vito Corleone, head of a mafia family, decides to hand over his empire to his youngest son Michael. However, his decision unintentionally puts the lives of his loved ones in grave danger.</p>
+					<p class="price">$25</p>
+                    <div class="actions">
+                        <input class="input" type="number" name="quantity" value="0" min="0">
+                        <button class="button button4" onclick="watchThisMovie(this)">Add</button>
+                    </div>
+		</div>
+	</div>
+
+    <div class="container">
+        <div class="cart">
+            <h2 class="cart-title">Cart</h2>
+			
+			    <div class="cart-items"></div>
+
+			    <div class="cart-total"></div>
+        </div>
+    </div>
+
+   <script src="script.js"></script> 
+</body>
+</html>
+
